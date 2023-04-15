@@ -1,0 +1,111 @@
+*,html, body {
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    background-color: rgb(0, 10, 96);
+    color: white;
+    width: 70%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 40px auto 40px auto;
+    border-radius: 40px;
+}
+
+section h2 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 1.5em;
+}
+
+section#header h2 {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-size: 1.5em;
+}  
+
+section#header {
+    width: 100%;
+    background: rgb(123,134,232);
+    background: linear-gradient(164deg, rgb(0, 10, 96) 0%, rgb(0, 0, 0) 52%, rgb(67, 165, 226) 100%);
+    color: white;
+    min-height: 20vh;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 0 16px 0 black;
+}
+
+nav div {
+    padding: 20px;
+}
+  
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 1em;
+    -webkit-text-stroke: 1.5px;
+}
+  
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+  
+section#biodata figure img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+section#biodata p {
+    margin: auto 40px auto 40px;
+    padding: 20px 0px 20px 0px;
+}
+
+section#biodata table {
+    margin: 0 auto;
+    width: 500px;
+    padding: 0px 0px 20px 0px;
+}
+
+section#educational-background {
+    text-align: center;
+}
+
+section#educational-background div{
+    padding: 0px 0px 20px 0px;
+}
+
+section#educational-background a {
+    color: white;
+    text-decoration: none;
+}
+
+section#educational-background a:hover {
+    text-decoration: underline;
+    color: rgb(67, 165, 226);
+}
+
+section#social-media div {
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+
+section#social-media a {
+    margin: 10px;
+}
